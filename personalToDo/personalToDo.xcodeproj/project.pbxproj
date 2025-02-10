@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E005EC7E2D5AC05400D9DA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E005EC642D5AC05300D9DA66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E005EC6B2D5AC05300D9DA66;
+			remoteInfo = personalToDo;
+		};
+		E005EC882D5AC05400D9DA66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E005EC642D5AC05300D9DA66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E005EC6B2D5AC05300D9DA66;
+			remoteInfo = personalToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E005EC6C2D5AC05300D9DA66 /* personalToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E005EC7D2D5AC05400D9DA66 /* personalToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E005EC872D5AC05400D9DA66 /* personalToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E005EC6E2D5AC05300D9DA66 /* personalToDo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = personalToDo;
+			sourceTree = "<group>";
+		};
+		E005EC802D5AC05400D9DA66 /* personalToDoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = personalToDoTests;
+			sourceTree = "<group>";
+		};
+		E005EC8A2D5AC05400D9DA66 /* personalToDoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = personalToDoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E005EC692D5AC05300D9DA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC7A2D5AC05400D9DA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC842D5AC05400D9DA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E005EC632D5AC05300D9DA66 = {
+			isa = PBXGroup;
+			children = (
+				E005EC6E2D5AC05300D9DA66 /* personalToDo */,
+				E005EC802D5AC05400D9DA66 /* personalToDoTests */,
+				E005EC8A2D5AC05400D9DA66 /* personalToDoUITests */,
+				E005EC6D2D5AC05300D9DA66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E005EC6D2D5AC05300D9DA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E005EC6C2D5AC05300D9DA66 /* personalToDo.app */,
+				E005EC7D2D5AC05400D9DA66 /* personalToDoTests.xctest */,
+				E005EC872D5AC05400D9DA66 /* personalToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E005EC6B2D5AC05300D9DA66 /* personalToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E005EC912D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDo" */;
+			buildPhases = (
+				E005EC682D5AC05300D9DA66 /* Sources */,
+				E005EC692D5AC05300D9DA66 /* Frameworks */,
+				E005EC6A2D5AC05300D9DA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E005EC6E2D5AC05300D9DA66 /* personalToDo */,
+			);
+			name = personalToDo;
+			packageProductDependencies = (
+			);
+			productName = personalToDo;
+			productReference = E005EC6C2D5AC05300D9DA66 /* personalToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E005EC7C2D5AC05400D9DA66 /* personalToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E005EC942D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDoTests" */;
+			buildPhases = (
+				E005EC792D5AC05400D9DA66 /* Sources */,
+				E005EC7A2D5AC05400D9DA66 /* Frameworks */,
+				E005EC7B2D5AC05400D9DA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E005EC7F2D5AC05400D9DA66 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E005EC802D5AC05400D9DA66 /* personalToDoTests */,
+			);
+			name = personalToDoTests;
+			packageProductDependencies = (
+			);
+			productName = personalToDoTests;
+			productReference = E005EC7D2D5AC05400D9DA66 /* personalToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E005EC862D5AC05400D9DA66 /* personalToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E005EC972D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDoUITests" */;
+			buildPhases = (
+				E005EC832D5AC05400D9DA66 /* Sources */,
+				E005EC842D5AC05400D9DA66 /* Frameworks */,
+				E005EC852D5AC05400D9DA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E005EC892D5AC05400D9DA66 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E005EC8A2D5AC05400D9DA66 /* personalToDoUITests */,
+			);
+			name = personalToDoUITests;
+			packageProductDependencies = (
+			);
+			productName = personalToDoUITests;
+			productReference = E005EC872D5AC05400D9DA66 /* personalToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E005EC642D5AC05300D9DA66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E005EC6B2D5AC05300D9DA66 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E005EC7C2D5AC05400D9DA66 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E005EC6B2D5AC05300D9DA66;
+					};
+					E005EC862D5AC05400D9DA66 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E005EC6B2D5AC05300D9DA66;
+					};
+				};
+			};
+			buildConfigurationList = E005EC672D5AC05300D9DA66 /* Build configuration list for PBXProject "personalToDo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E005EC632D5AC05300D9DA66;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E005EC6D2D5AC05300D9DA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E005EC6B2D5AC05300D9DA66 /* personalToDo */,
+				E005EC7C2D5AC05400D9DA66 /* personalToDoTests */,
+				E005EC862D5AC05400D9DA66 /* personalToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E005EC6A2D5AC05300D9DA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC7B2D5AC05400D9DA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC852D5AC05400D9DA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E005EC682D5AC05300D9DA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC792D5AC05400D9DA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E005EC832D5AC05400D9DA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E005EC7F2D5AC05400D9DA66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E005EC6B2D5AC05300D9DA66 /* personalToDo */;
+			targetProxy = E005EC7E2D5AC05400D9DA66 /* PBXContainerItemProxy */;
+		};
+		E005EC892D5AC05400D9DA66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E005EC6B2D5AC05300D9DA66 /* personalToDo */;
+			targetProxy = E005EC882D5AC05400D9DA66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E005EC8F2D5AC05400D9DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E005EC902D5AC05400D9DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E005EC922D5AC05400D9DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = personalToDo/personalToDo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"personalToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E005EC932D5AC05400D9DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = personalToDo/personalToDo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"personalToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E005EC952D5AC05400D9DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personalToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/personalToDo";
+			};
+			name = Debug;
+		};
+		E005EC962D5AC05400D9DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/personalToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/personalToDo";
+			};
+			name = Release;
+		};
+		E005EC982D5AC05400D9DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = personalToDo;
+			};
+			name = Debug;
+		};
+		E005EC992D5AC05400D9DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphaelPalacio.personalToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = personalToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E005EC672D5AC05300D9DA66 /* Build configuration list for PBXProject "personalToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E005EC8F2D5AC05400D9DA66 /* Debug */,
+				E005EC902D5AC05400D9DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E005EC912D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E005EC922D5AC05400D9DA66 /* Debug */,
+				E005EC932D5AC05400D9DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E005EC942D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E005EC952D5AC05400D9DA66 /* Debug */,
+				E005EC962D5AC05400D9DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E005EC972D5AC05400D9DA66 /* Build configuration list for PBXNativeTarget "personalToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E005EC982D5AC05400D9DA66 /* Debug */,
+				E005EC992D5AC05400D9DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E005EC642D5AC05300D9DA66 /* Project object */;
+}

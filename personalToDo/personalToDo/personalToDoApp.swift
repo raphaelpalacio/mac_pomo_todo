@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct personalToDoApp: App {
+    @StateObject private var authManager = AuthManager.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authManager.isAuthenticated {
+                MainView()
+            } else {
+                LoginView()
+            }
         }
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentSize)
     }
 }

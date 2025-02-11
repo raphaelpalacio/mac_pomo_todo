@@ -4,13 +4,14 @@ import GoogleSignInSwift
 import AuthenticationServices
 import AppKit
 
-class AuthManager: ObservableObject, ASAuthorizationControllerDelegate {
+class AuthManager: NSObject, ObservableObject {
     @Published var currentUser: User?
     @Published var isAuthenticated = false
     
     static let shared = AuthManager()
     
-    private init() {
+    private override init() {
+        super.init()
         // Restore previous sign-in if it exists
         GIDSignIn.sharedInstance.restorePreviousSignIn { [weak self] user, error in
             if let user = user {
@@ -63,60 +64,16 @@ class AuthManager: ObservableObject, ASAuthorizationControllerDelegate {
         }
     }
     
+    // Comment out or remove Apple Sign In related methods
+    /* 
     func signInWithApple() async throws {
-        let request = ASAuthorizationAppleIDProvider().createRequest()
-        request.requestedScopes = [.fullName, .email]
-        
-        return try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
-            let controller = ASAuthorizationController(authorizationRequests: [request])
-            controller.delegate = self
-            controller.presentationContextProvider = WindowProvider.shared
-            controller.performRequests()
-            
-            // Store continuation to be used in delegate methods
-            self.currentContinuation = continuation
-        }
+        // ... code ...
     }
     
-    // Store the continuation to be used in delegate methods
-    private var currentContinuation: CheckedContinuation<Void, Error>?
-    
-    // MARK: - ASAuthorizationControllerDelegate
-    
-    func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
-        guard let appleIDCredential = authorization.credential as? ASAuthorizationAppleIDCredential else {
-            currentContinuation?.resume(throwing: AuthError.signInFailed(NSError(domain: "", code: -1)))
-            currentContinuation = nil
-            return
-        }
-        
-        let userId = appleIDCredential.user
-        let email = appleIDCredential.email ?? ""
-        let name = [
-            appleIDCredential.fullName?.givenName,
-            appleIDCredential.fullName?.familyName
-        ].compactMap { $0 }.joined(separator: " ")
-        
-        let user = User(
-            id: userId,
-            email: email,
-            name: name.isEmpty ? nil : name,
-            photoURL: nil,
-            provider: .apple
-        )
-        
-        DispatchQueue.main.async { [weak self] in
-            self?.currentUser = user
-            self?.isAuthenticated = true
-            self?.currentContinuation?.resume()
-            self?.currentContinuation = nil
-        }
+    func authorizationController(...) {
+        // ... code ...
     }
-    
-    func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
-        currentContinuation?.resume(throwing: error)
-        currentContinuation = nil
-    }
+    */
     
     func signOut() {
         GIDSignIn.sharedInstance.signOut()

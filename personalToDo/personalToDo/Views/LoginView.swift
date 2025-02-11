@@ -22,6 +22,8 @@ struct LoginView: View {
             }
             .buttonStyle(.borderedProminent)
             
+            // Remove or comment out the Sign in with Apple button
+            /*
             Button(action: {
                 Task {
                     try? await authManager.signInWithApple()
@@ -34,6 +36,7 @@ struct LoginView: View {
                 .frame(maxWidth: 300)
             }
             .buttonStyle(.borderedProminent)
+            */
         }
         .frame(width: 400, height: 300)
     }
